@@ -3,9 +3,9 @@ var ROW_LIMIT = 15;
 var COLUMN_LIMIT = 15;
 
 window.addEventListener('load', drawTable, false);
-function getInput() {
-    ROW_SIZE = parseInt(prompt("Enter a ROW Size", "0"));
-    COLUMN_SIZE = parseInt(prompt("Enter a COLUMN Size", "0"));
+function redrawTable() {
+    ROW_LIMIT = parseInt(prompt("Enter a ROW Size", "0"));
+    COLUMN_LIMIT = parseInt(prompt("Enter a COLUMN Size", "0"));
     drawTable();
 }
 
@@ -23,6 +23,7 @@ function drawTable() {
         }
         myTable += '</tr>'
     }
+    
     document.getElementById("myTable").innerHTML = myTable;
 }
 
