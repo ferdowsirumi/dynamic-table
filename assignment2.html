@@ -38,6 +38,7 @@
           </div>
           <input type="checkbox" id="nav-check">
           <div class="nav-links" id="navbar">
+            <a href="#redrawTable">Draw Table</a>
             <!-- <a href="#produccts">Products</a>
           <a href="#product-details">Product Details</a>
           <a href="#specs">Specs</a>
@@ -57,16 +58,38 @@
       <div class="section-tittle">
         <h2>Generate Table</h2>
       </div>
+      <div class="main-services anim" id="redrawTable"> 
+        <div style="width:400px; margin:auto;">
+          <form id="redrawForm" onsubmit="return false;">
+            <p class="labelText" for="tableRaw">Enter # of Raws:</p>
+            <input type="number" min=1 max=500 id="tableRow" value="15" class="large-input" name="tableRow"
+              class="large-input" placeholder="please enter a raw" required
+              oninvalid="this.setCustomValidity('Enter a row between 1 to 500')" oninput="this.setCustomValidity('')">
+            <p class="labelText" for="tableColumn">Enter # of Columns:</p>
+
+            <input type="number" min=1 max=500 id="tableColumn" value="15" class="large-input"
+              placeholder="please enter a column" name="tableColumn" class="large-input" required
+              oninvalid="this.setCustomValidity('Enter a column between 1 to 500')"
+              oninput="this.setCustomValidity('')">
+
+            <p style="color: brown;" class="" id="validationResult"> </p>
+
+            <button class="button" type="submit" oninvalid="return;" onclick="redrawTable();"><i
+                class="fa fa-pencil"></i>
+              Redraw</button>
+          </form>
+        </div>
+      </div>
+
       <div class="main-services" style="overflow:auto; padding-top:50px;">
-        
-       
-          <div style="width:inherit; max-width: 80vw; overflow-x:auto; margin:auto;">
+        <div id="tablePanel" style="width:inherit; max-width: 80vw; overflow-x:auto; margin:auto;">
           <table id="myTable">
-            
+
           </table>
         </div>
         <div style="width:70%;margin:auto;text-align:center;margin-top:20px;">
-          <butto onclick="redrawTable()" class="button"><i class="fa fa-pencil"></i> Redraw</button>
+          <a href="#redrawTable">Redraw</a>
+          <!-- <button onclick="href='#redrawTable'" class="button"><i class="fa fa-pencil"></i> Redraw</button> -->
         </div>
       </div>
     </div>
@@ -83,19 +106,9 @@
             </div>
             <div class="ref-content">
               <p>
-                <i class="fa fa-link"></i> Logo Used from 
+                <i class="fa fa-link"></i> Logo Used from
                 <a href="https://undraw.co/search" target="_blank"> Undraw</a>
               </p>
-              <!-- <p>
-                <i class="fa fa-link"></i> Product Details Inspiration:
-                <a href="https://www.rogers.com/phones/iphone-12-pro?province=SK&flowType=nac&colour=graphite&storage=128gb&tierType=upfrontEdge&upfrontEdge=true"
-                  target="_blank"> Iphone 12 Pro Details</a>
-              </p>
-              <p>
-                <i class="fa fa-link"></i> Rogers Product Provincial Sites:
-                <a href="https://www.rogers.com/phones/?province=ON" target="_blank"> ONTARIO</a>,
-                <a href="https://www.rogers.com/phones/?province=MB" target="_blank"> MANITOBA</a>
-              </p> -->
             </div>
           </div>
         </div>

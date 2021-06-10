@@ -658,3 +658,58 @@ th {
   border-radius:5px;
 }
 
+/* FORM */
+.labelText {
+  text-align: center;
+/* margin-left: 150px; */
+  font-size: 16px;
+  font-weight:900;
+  color:#D33B57;
+}
+
+.large-input {
+  color: #222f3e;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 200;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #D33B57;
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.small{
+  display:inline-block;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1; 
+  font-size: 12px;
+}
+
+:-ms-input-placeholder {
+ color: grey;
+ font-size: 12px;
+
+}
+
+::-ms-input-placeholder {
+ color: grey;
+ font-size: 12px;
+
+}
+
+.large-input:focus {
+  border-bottom: 2px solid #341f97;
+  width: 165px;
+  transition: 0.5s;
+}
+.small-input:focus {
+  border-bottom: 2px solid #341f97;
+  width: 155px;
+  transition: 0.3s;
+}
