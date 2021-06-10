@@ -216,34 +216,6 @@ body {
   text-align: center;
   overflow: auto;
 }
- .feature{
-  box-shadow:none;
-  background-color: whitesmoke;
-}
-.feature h1{
-  font-size: 56px;
-  line-height: 64px;
-  margin-top: 20px;
-}
-
-.main-services-image {
-  min-width: 120px;
-  max-width: 160px;
-  min-height: auto;
-  margin-bottom: 5px;
-  border: 0;
-  vertical-align: middle;
-}
-
-
-
-.main-services h3 {
-  font-size: 16px;
-  font-weight: 900;
-  color: #292929;
-  margin-bottom: 10px;
-}
-
 
 .main-services a {
   font-size: 12px;
@@ -263,13 +235,6 @@ body {
   box-shadow: 10px 10px 5px #aaaaaa;
   opacity: 1;
   margin-top: -10px;
-}
-.section-slide{
-  width: 56%;
-}
-.section-price{
-  width: 40%;
-  text-align: left;
 }
 
 @media screen and (max-width: 900px) {
@@ -298,98 +263,7 @@ body {
 /* End section-grey */
 
 
-/* begin-pricing-section*/
 
-.top-shape-wrapper {
-  overflow: hidden;
-}
-
-.top-shape {
-  position: relative;
-  display: block;
-  padding: 70px 0;
-}
-
-.top-shape::before {
-  -webkit-transform: rotate(-172deg);
-  background-color: #eee;
-  border-radius: 750px;
-  content: "";
-  height: 1250px;
-  left: -250px;
-  position: absolute;
-  top: 0;
-  transform: rotate(-186deg);
-  width: 2050px;
-  z-index: -1;
-}
-.top-content {
-  float: left;
-  width: 31.33%;
-  height: auto;
-  color: #333333;
-  font-size: 20px;
-  margin: 0px 6px;
-  margin-top: 30px;
-  padding: 15px;
-  background-color: #fff;
-  box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
-  border-radius: 8px;
-  text-align: center;
-  min-height: 455px;
-}
-.top-content-image {
-  width: 100%;
-  height: auto;
-  vertical-align: middle;
-  transition: transform 0.2s;
-  max-height: 220px;
-}
-
-.top-content-image:hover {
-  transition: transform 0.3s;
-  opacity: 0.7;
-}
-
-
-.issue-box h3 {
-  margin-bottom: 15px;
-  padding-bottom: 2px;
-  color: #38b2aa;
-  line-height: 1;
-}
-
-.issue-box h3 a {
-  color: #38b2aa;
-  font-size: 15px;
-  text-decoration: none;
-  outline: 0;
-  font-weight: bold;
-  color: #38b2aa;
-  text-transform: capitalize;
-  font-size: 16px;
-}
-
-.issue-box p {
-  font-size: 14px;
-  /* font-style: italic; */
-  font-weight: 400;
-  color: #7c8595;
-  font-weight: bold;
-  margin-top: -5px;
-}
-
-@media screen and (max-width: 900px) {
-  .top-shape {
-    padding: 20px 0 70px 0;
-  }
-  .top-content {
-    width: 100%;
-    display: block;
-    margin: 10px auto auto auto;
-    /* padding: 50px 30px 40px 30px; */
-  }
-}
 
 .footer {
   width: 100%;
@@ -597,22 +471,6 @@ body {
 
 
 
-.red {
-  background: red;
-}
-.black{
-  background-color: black;
-}
-.blue{
-  background-color: #305E8B;
-}
-.white{
-  background-color: #ddd;
-}
-
-
-
-
 table {
   border-collapse: collapse;
   width: 90%;
@@ -620,7 +478,6 @@ table {
   height:200px;
   font-size: 12px;
   overflow:auto;
-
 }
 
 
@@ -639,11 +496,6 @@ th, td {
 
 tr:nth-child(even){background-color: #f2f2f2}
 
-th {
-  background-color: #04AA6D;
-  color: white;
-}
-  
 .button {
   background-color: #D33B57;
   border: none;
