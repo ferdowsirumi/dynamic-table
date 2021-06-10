@@ -27,24 +27,6 @@ body {
   background-position-y: 10px;
 }
 
-/* .phone-feature {
-  font-size: 11px;
-  line-height: 20px;
-  font-weight: 500;
-  letter-spacing: 1;
-  color: black;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.01);
-  text-align: start;
-  vertical-align: middle;
-
-} */
-/* .phone-feature i{
-  color:#C93B2B;
-  vertical-align: middle;
-  margin-right:5px;
-
-} */
-
 .row {
   content: "";
   display: table;
@@ -220,7 +202,7 @@ body {
 
 .main-services {
   float: left;
-  width: 31.33%;
+  width: 100%;
   height: auto;
   min-height: 320px;
   color: #333333;
@@ -232,6 +214,7 @@ body {
   box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
   border-radius: 8px;
   text-align: center;
+  overflow: auto;
 }
  .feature{
   box-shadow:none;
@@ -431,7 +414,7 @@ body {
 }
 
 .footer-distributed .footer-left {
-  width: 38%;
+  width: 28%;
 }
 
 .footer-distributed h3 {
@@ -463,7 +446,7 @@ body {
 /* Footer Center */
 
 .footer-distributed .footer-center {
-  width: 35%;
+  width: 45%;
   margin:auto;
 }
 
@@ -612,20 +595,7 @@ body {
   }
 }
 
-.circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 5px;
-}
-.circle:hover
-{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  transition-duration: .8s;
-}
+
 
 .red {
   background: red;
@@ -639,179 +609,32 @@ body {
 .white{
   background-color: #ddd;
 }
-/* popup stuff */
-
-.popup-row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin: 30px 0px;
-}
-
-.popup-column {
-  -ms-flex: 98%;
-  flex: 98%;
-  max-width: 98%;
-  padding: 0 8px;
-}
-
-.popup-column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-@media screen and (max-width: 900px) {
-  .popup-column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
-      text-align: center;
-  }
-  .box {
-      display: none;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .popup-column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
-  }
-}
-.slideshow-container {
-  position: relative;
-  margin: auto;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: #bb0000;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev{
-  left: 0;
-}
-
-.prev:hover, .next:hover {
-  background-color: #bb0000;
-  color: white;
-}
-
-.dot {
-  cursor: pointer;
-  width: 18%;
-  height: auto;
-  margin: 2px;
-  display: inline-block;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-@media only screen and (max-width: 900px) {
-  .prev, .next, .text {
-      font-size: 14px
-  }
-  .prev {
-      left: 0;
-      border-radius: 3px 0 0 3px;
-      position: absolute;
-      top: 50%;
-  }
-  .footer-open-text p {
-      width: 100%;
-      text-align: center;
-  }
-}
 
 
-/* Image -map */
-.canada-map-image {
-  text-align: center;
-  vertical-align: middle; 
-  max-width: 100%;
-  height: auto;
-  margin:auto;
-}
-map:hover area:hover{
-  outline: solid rgb(85, 161, 236) 2px;
-}
 
 
 table {
-  font-size: 12px;
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
+  margin:auto;
+  height:200px;
+  font-size: 12px;
+  overflow:auto;
+
 }
 
-th, td {
-  text-align: left;
-  padding: 8px;
-}
 
 tr:nth-child(even) {background-color: #f2f2f2;}
 
-.tableContainer{
-  width:22%;
-  display: inline-block;
-  margin: 10px;
-  vertical-align: top;
-}
-
 table.nobackground tr {background-color: white;}
 
-@media only screen and (max-width: 900px) {
-  .tableContainer{
-    display: block;
-    width:98%;
-    margin:auto;
-    margin-bottom: 20px;
-  }
-}
-#storages > label{
-  border:2px solid #DA291B;
-  padding: 10px;
-  display: inline-block;
-  margin: 0px 10px 10px 0px;
-  border-radius: 10px;
-}
 
 
-
-/* new part */
-/* body{
-  overflow-x: hidden;
-  margin:100px;
-} */
-
-
-table {
-  border-collapse: collapse;
-  width: 70%;
-  margin:auto;
-  height:200px;
-}
 
 th, td {
   text-align: center;
   padding: 4px;
-  border:1px solid #04AA6D;
+  border:1px solid #D33B57;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
@@ -822,7 +645,7 @@ th {
 }
   
 .button {
-  background-color: #4CAF50;
+  background-color: #D33B57;
   border: none;
   color: white;
   padding: 15px 38px;
@@ -834,3 +657,4 @@ th {
   cursor: pointer;
   border-radius:5px;
 }
+
