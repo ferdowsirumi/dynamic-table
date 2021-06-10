@@ -150,11 +150,11 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #C93B2B;
+    background-color: #D33B57;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
+    top: 100px;
     left: 0px;
   }
   .nav > .nav-links > a {
@@ -172,7 +172,7 @@ body {
     height: 0px;
   }
   .nav > #nav-check:checked + .nav-links {
-    height: calc(60vh - 50px);
+    height: calc(30vh - 50px);
     overflow-y: auto;
   }
 }
